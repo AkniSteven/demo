@@ -1,0 +1,26 @@
+{
+    "name": "akni/dashboard",
+    "description": "this is alpha version of akni dashboard for laravel",
+    "type": "laravel-package",
+    "autoload": {
+        "psr-4": {
+            "Akni\\Dashboard\\": "src/Dashboard/"
+        }
+    },
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "stevenaknidev",
+            "email": "stevenaknidev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akni\\Dashboard\\Providers\\DashboardServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
